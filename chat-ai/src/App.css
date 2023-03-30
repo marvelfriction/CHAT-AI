@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-#root {
+body {
     margin: 0 auto;
     text-align: center;
     padding: 2rem;
-    max-width: 1280px;
+    max-width: 580px;
     background: rgb(35, 34, 34);
     color: white;
     font-family: "Poppins", sans-serif;
@@ -23,6 +23,7 @@
     border-radius: 14px;
     padding: 10px;
     cursor: pointer;
+    font-family: "Poppins", sans-serif;
 }
 .grid-child:hover{
     background: whitesmoke;
@@ -34,4 +35,21 @@
 .grid-child p{
     font-weight: 500;
     font-size: 15px;
+}
+.text-area{
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(72, 71, 71);
+    color: whitesmoke;
+    width: 90%;
+    height: 500px;
+}
+.action-btn{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 8px;
 }

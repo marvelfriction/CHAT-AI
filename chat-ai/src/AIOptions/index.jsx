@@ -69,7 +69,7 @@ export const arrayItems = [
     id: "explainCode",
     description: "Explain a complicated piece of code.",
     option: {
-      model: "code-davinci-002",
+      model: "text-davinci-003",
       temperature: 0,
       max_tokens: 64,
       top_p: 1.0,
@@ -82,7 +82,7 @@ export const arrayItems = [
     id: "jstopy",
     description: "Convert simple JavaScript expressions into Python.",
     option: {
-      model: "code-davinci-002",
+      model: "text-davinci-003",
       temperature: 0,
       max_tokens: 64,
       top_p: 1.0,
